@@ -76,7 +76,7 @@ public class FractalDisplay extends JPanel implements MouseListener, ActionListe
 		}
 
 		// Radio buttons
-		titles = new String[] { "Sierpinski Triangle", "HShape", "My shape" };
+		titles = new String[] { "Sierpinski Triangle", "HShape", "Binary Tree" };
 		radioButtons = new JRadioButton[titles.length];
 		// Only one radio button can be selected at a time
 		ButtonGroup buttonGroup = new ButtonGroup();
